@@ -2,15 +2,32 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private UI _ui;
+
+    [SerializeField] private ResourcesFabric _rFabric;
+
+    [Header("Balance")]
+
+    [SerializeField] private int _startWheat;
+
+    [SerializeField] private int _startGold;
+    [SerializeField] private int _workerCost = 10;
+    private int _workerCount = 0;
+    private Wallet _wallet;
+    private void Awake()
     {
-        
+        _wallet = new(_startWheat, _startGold, _workerCount);
+        _rFabric.Init(_wallet);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+
+        _ui.
+
     }
+
+
+
+
 }

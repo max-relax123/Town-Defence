@@ -1,11 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneSwitcher : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
-    public void LoadSceneByName(string Game)
-    {
-        SceneManager.LoadScene(Game);
-    }
+    
 
 }
