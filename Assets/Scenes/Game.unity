@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.44, y: 222.18}
-  m_SizeDelta: {x: 168.3263, y: 19.834}
+  m_AnchoredPosition: {x: -331.4035, y: 222.18}
+  m_SizeDelta: {x: 138.3993, y: 19.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313412987
 MonoBehaviour:
@@ -639,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.49957, y: 223.15}
-  m_SizeDelta: {x: 146.9997, y: 17.8917}
+  m_AnchoredPosition: {x: 53.586, y: 223.15}
+  m_SizeDelta: {x: 107.1716, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335227525
 MonoBehaviour:
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Random Event
+  m_text: 'Random Event:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RecourcesFabric
   _timeForIncome: 3
   _baseWheatIncome: 5
-  _baseGoldIncome: 0
+  _baseGoldIncome: 5
   _wheatIncomePerWorker: 5
 --- !u!4 &436165902
 Transform:
@@ -924,8 +924,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.66, y: 99}
-  m_SizeDelta: {x: 320.68, y: 50}
+  m_AnchoredPosition: {x: 362.66, y: 159.19}
+  m_SizeDelta: {x: 320.68, y: 24.8288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &720152014
 GameObject:
@@ -1111,7 +1111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475.2, y: 189.4}
+  m_AnchoredPosition: {x: -491.95, y: 191.44}
   m_SizeDelta: {x: 33.3362, y: 33.5506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756764633
@@ -1186,7 +1186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 190.42}
+  m_AnchoredPosition: {x: -197.7, y: 191.44}
   m_SizeDelta: {x: 35.5957, y: 35.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786253178
@@ -1267,8 +1267,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Wheat:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1361,8 +1361,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.66, y: 207.1}
-  m_SizeDelta: {x: 320.68, y: 50}
+  m_AnchoredPosition: {x: 362.66, y: 220.16}
+  m_SizeDelta: {x: 320.68, y: 23.885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &924162544
 GameObject:
@@ -1376,7 +1376,6 @@ GameObject:
   - component: {fileID: 924162548}
   - component: {fileID: 924162547}
   - component: {fileID: 924162546}
-  - component: {fileID: 924162550}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1484,25 +1483,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &924162550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924162544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc2d9a7ae5afa404daec39957a2ed9c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UI
-  _gameManager: {fileID: 1406785290}
-  _wheatText: {fileID: 858424211}
-  _goldText: {fileID: 1608987190}
-  _workersText: {fileID: 492271132}
-  _resTimerImage: {fileID: 756764633}
-  _hireTimerImage: {fileID: 786253178}
-  _btnHireWorker: {fileID: 268535388}
 --- !u!1 &1112541868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,7 +1654,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.44, y: 190.42}
+  m_AnchoredPosition: {x: -331.4, y: 189.4}
   m_SizeDelta: {x: 34.6984, y: 35.5851}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304299166
@@ -1799,8 +1779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475.2, y: 222.18}
-  m_SizeDelta: {x: 112.4163, y: 19.8395}
+  m_AnchoredPosition: {x: -491.95386, y: 222.18}
+  m_SizeDelta: {x: 78.9086, y: 19.8395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447215555
 MonoBehaviour:
@@ -1936,8 +1916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 223.15}
-  m_SizeDelta: {x: 44.4073, y: 17.8917}
+  m_AnchoredPosition: {x: -197.69727, y: 223.15}
+  m_SizeDelta: {x: 33.0127, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470863033
 MonoBehaviour:
@@ -2073,8 +2053,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.8794, y: 223.15}
-  m_SizeDelta: {x: 83.4485, y: 17.8917}
+  m_AnchoredPosition: {x: -74.879005, y: 223.15}
+  m_SizeDelta: {x: 49.4595, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489673602
 MonoBehaviour:
@@ -2443,8 +2423,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.66, y: 44}
-  m_SizeDelta: {x: 320.68, y: 50}
+  m_AnchoredPosition: {x: 362.66, y: 131.2}
+  m_SizeDelta: {x: 320.68, y: 23.2066}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1611215998
 GameObject:
@@ -2480,7 +2460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.5, y: 189.4}
+  m_AnchoredPosition: {x: 53.586, y: 189.4}
   m_SizeDelta: {x: 35.5957, y: 35.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611216000
@@ -2550,13 +2530,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc2d9a7ae5afa404daec39957a2ed9c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI
-  _gameManager: {fileID: 0}
-  _wheatText: {fileID: 0}
-  _goldText: {fileID: 0}
-  _workersText: {fileID: 0}
-  _resTimerImage: {fileID: 0}
-  _hireTimerImage: {fileID: 0}
-  _btnHireWorker: {fileID: 0}
+  _gameManager: {fileID: 1406785290}
+  _wheatText: {fileID: 858424211}
+  _goldText: {fileID: 1608987190}
+  _workersText: {fileID: 492271132}
+  _resTimerImage: {fileID: 756764633}
+  _hireTimerImage: {fileID: 786253178}
+  _btnHireWorker: {fileID: 1605173200}
 --- !u!4 &1769463220
 Transform:
   m_ObjectHideFlags: 0
@@ -2698,8 +2678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.66, y: 154}
-  m_SizeDelta: {x: 320.68, y: 50}
+  m_AnchoredPosition: {x: 362.66, y: 189.39998}
+  m_SizeDelta: {x: 320.68, y: 25.8777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005904906
 MonoBehaviour:

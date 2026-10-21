@@ -23,7 +23,7 @@ public class Wallet
 
     public void RemoveGold(int gold)
     {
-        _gold += gold;
+        _gold -= gold;
     }
 
     public bool GetGold(int gold)

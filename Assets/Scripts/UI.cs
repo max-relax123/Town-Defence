@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
-    private const string c_wheatText = "Пшеница: ";
-    private const string c_goldText = "Золото: ";
-    private const string c_workersText = "Рабочие: ";
+    private const string c_wheatText = "Wheat: ";
+    private const string c_goldText = "Gold: ";
+    private const string c_workersText = "Peasants: ";
 
     [SerializeField] private GameManager _gameManager;
 
