@@ -535,13 +535,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1406785289}
+        m_TargetAssemblyTypeName: Timers, Assembly-CSharp
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -639,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.44, y: 222.18}
-  m_SizeDelta: {x: 168.3263, y: 19.834}
+  m_AnchoredPosition: {x: -342.2, y: 222.18}
+  m_SizeDelta: {x: 78.2724, y: 19.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313412987
 MonoBehaviour:
@@ -776,8 +776,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.49957, y: 223.15}
-  m_SizeDelta: {x: 146.9997, y: 17.8917}
+  m_AnchoredPosition: {x: 0.000024796, y: 223.15}
+  m_SizeDelta: {x: 105.1677, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335227525
 MonoBehaviour:
@@ -879,6 +879,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335227523}
   m_CullTransparentMesh: 1
+--- !u!1 &493642953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493642954}
+  - component: {fileID: 493642956}
+  - component: {fileID: 493642955}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &493642954
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493642953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924162549}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0002346, y: 98.954}
+  m_SizeDelta: {x: 198.01, y: 22.9848}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &493642955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493642953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.27571836, g: 0.764151, b: 0.18382876, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &493642956
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493642953}
+  m_CullTransparentMesh: 1
 --- !u!1 &720152014
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.879, y: 189.4}
+  m_AnchoredPosition: {x: -117.8, y: 190.42}
   m_SizeDelta: {x: 35.5957, y: 35.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720152016
@@ -1063,7 +1138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 190.42}
+  m_AnchoredPosition: {x: -227.11, y: 190.42}
   m_SizeDelta: {x: 35.5957, y: 35.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786253178
@@ -1365,6 +1440,7 @@ RectTransform:
   - {fileID: 1470863032}
   - {fileID: 1489673601}
   - {fileID: 335227524}
+  - {fileID: 493642954}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1680,7 +1756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.44, y: 190.42}
+  m_AnchoredPosition: {x: -342.2, y: 190.42}
   m_SizeDelta: {x: 34.6984, y: 35.5851}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304299166
@@ -1750,6 +1826,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c51e2aa9eaed1d40bf607cf81ccfdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  wheatText: {fileID: 858424211}
+  warriorsText: {fileID: 1256287957}
+  peasantsText: {fileID: 124973213}
+  wheat: 10
+  peasants: 5
+  warriors: 0
+  peasantCost: 5
+  warriorCost: 10
 --- !u!4 &1406785291
 Transform:
   m_ObjectHideFlags: 0
@@ -1936,8 +2020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 223.15}
-  m_SizeDelta: {x: 44.4073, y: 17.8917}
+  m_AnchoredPosition: {x: -227.11, y: 223.15}
+  m_SizeDelta: {x: 34.6173, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470863033
 MonoBehaviour:
@@ -2073,8 +2157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.8794, y: 223.15}
-  m_SizeDelta: {x: 83.4485, y: 17.8917}
+  m_AnchoredPosition: {x: -117.8, y: 223.15}
+  m_SizeDelta: {x: 46.9894, y: 17.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489673602
 MonoBehaviour:
@@ -2239,13 +2323,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1836485891}
+        m_TargetAssemblyTypeName: Timers, Assembly-CSharp
+        m_MethodName: Click_HirePeasant
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2343,7 +2427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.5, y: 189.4}
+  m_AnchoredPosition: {x: 0.0014381, y: 190.42}
   m_SizeDelta: {x: 35.5957, y: 35.588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611216000
@@ -2384,6 +2468,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611215998}
   m_CullTransparentMesh: 1
+--- !u!1 &1836485890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1836485892}
+  - component: {fileID: 1836485891}
+  m_Layer: 0
+  m_Name: Timers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1836485891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836485890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321eda27b6375b4438f58811f556792f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timers
+  gameManager: {fileID: 1406785290}
+  harvestInterval: 5
+  harvestTimer: 0
+  eatInterval: 8
+  eatTimer: 0
+  peasantHireTime: 4
+  warriorHireTime: 7
+  peasantsInQueue: 0
+  warriorsInQueue: 0
+  currentHireTimer: 0
+  attackInterval: 45
+  attackTimer: 0
+  currentWave: 1
+  eventInterval: 20
+  eventChance: 30
+  eventTimer: 0
+--- !u!4 &1836485892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836485890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 581.51013, y: 379.56613, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1841465625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,3 +2703,4 @@ SceneRoots:
   - {fileID: 924162549}
   - {fileID: 70960941}
   - {fileID: 1406785291}
+  - {fileID: 1836485892}

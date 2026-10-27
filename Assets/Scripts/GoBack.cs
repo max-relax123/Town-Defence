@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GoBack : MonoBehaviour
 {
-   public void Back()
+    public void GoBacking()
     {
         SceneManager.LoadScene("StartMenu");
 
