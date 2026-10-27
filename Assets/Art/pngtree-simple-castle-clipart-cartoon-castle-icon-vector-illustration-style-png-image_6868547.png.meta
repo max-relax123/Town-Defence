@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 279f76ce502a44a458105e1fa3569a6c
+guid: 1b78cb60bf45c7c44978bdab377e84fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6271672033386399907
-    second: castle_4_0
+      213: 1949592582583115471
+    second: pngtree-simple-castle-clipart-cartoon-castle-icon-vector-illustration-style-png-image_6868547_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castle_4_0
+      name: pngtree-simple-castle-clipart-cartoon-castle-icon-vector-illustration-style-png-image_6868547_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 428
+        x: 34
+        y: 49
+        width: 293
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d57704ea38b86f8a0800000000000000
-      internalID: -6271672033386399907
+      spriteID: fce5a9ddf185e0b10800000000000000
+      internalID: 1949592582583115471
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      castle_4_0: -6271672033386399907
+      pngtree-simple-castle-clipart-cartoon-castle-icon-vector-illustration-style-png-image_6868547_0: 1949592582583115471
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
