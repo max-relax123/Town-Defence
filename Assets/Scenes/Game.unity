@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1836485891}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Timers, Assembly-CSharp
         m_MethodName: Click_HirePeasant
         m_Mode: 1
@@ -2477,7 +2477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1836485892}
-  - component: {fileID: 1836485891}
+  - component: {fileID: 1836485893}
   m_Layer: 0
   m_Name: Timers
   m_TagString: Untagged
@@ -2485,34 +2485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1836485891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836485890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 321eda27b6375b4438f58811f556792f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Timers
-  gameManager: {fileID: 1406785290}
-  harvestInterval: 5
-  harvestTimer: 0
-  eatInterval: 8
-  eatTimer: 0
-  peasantHireTime: 4
-  warriorHireTime: 7
-  peasantsInQueue: 0
-  warriorsInQueue: 0
-  currentHireTimer: 0
-  attackInterval: 45
-  attackTimer: 0
-  currentWave: 1
-  eventInterval: 20
-  eventChance: 30
-  eventTimer: 0
 --- !u!4 &1836485892
 Transform:
   m_ObjectHideFlags: 0
@@ -2528,6 +2500,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1836485893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836485890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321eda27b6375b4438f58811f556792f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timers
 --- !u!1 &1841465625
 GameObject:
   m_ObjectHideFlags: 0
